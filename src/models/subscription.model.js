@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const subscriptionSchema = mongoose.Schema({
-    subcriber: {
+    subscriber: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "User",
     },
